@@ -49,3 +49,16 @@ To predict future sales, linear regression and regression tree models were imple
 - Testing Set
     - RMSE: 1493.27512593923
     - R2: 0.19177638337083347
+
+Between the two models, the linear regression model fared better than the decision tree model. The decition tree model's results had a high variance, hence a training R2 score of 100% and a low test score of 19%. This is also a reflection in the disparity in the training RMSE between the two models. Although the linear regression model made more sense, it wasn't necessarily a good R2 score and can be improved with further tuning
+
+## Conclusion and Recommendations
+After running the data through the two models, it is clear that the linear regression model provided a better fit. Tuning of the model is definitely recommended for an optimal R2 score including modeling the data with a Decision Forest and a bagged tree model to obtain potentially better results.  
+
+## Limitations and Next Steps
+Model implementation should not be limited to these two models. Further tuning and modeling should be considered to ensure the best possible result before forecasting sales. This should also include simplifying the dataset to elimiate the high variance demonstrated in the regression tree model. Since the project is limited to these two models, all parameters of the decision tree model should be tuned alongside the consideration of the MSE and MAE. 
+
+## Inquiries, Further Information
+Contact Christian Palisoc  
+cipalisoc@gmail.com
+
